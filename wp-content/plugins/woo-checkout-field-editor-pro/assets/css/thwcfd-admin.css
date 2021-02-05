@@ -1,0 +1,550 @@
+
+/***** TABS & SECTIONS ******
+****************************/
+.thpladmin-tabs a{
+    font-size: 16px;
+}
+.thpladmin-sections {
+    list-style: outside none none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 15px;
+    color: #666;
+}
+.thpladmin-sections li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+}
+.thpladmin-sections a {
+    line-height: 2;
+    padding: 0.2em;
+    text-decoration: none;
+}
+.thpladmin-sections a.current {
+    font-weight: 600;
+    border: medium none;
+    color: #000;
+}
+
+/***** FIELDS TABLE ******
+*************************/
+.err_msgs{
+    color: #FF0000;
+}
+
+table.thpladmin_fields_table{
+    position: relative;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+table.thpladmin_fields_table thead th,
+table.thpladmin_fields_table tfoot th {
+    color: #32373c;
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+}
+table.thpladmin_fields_table thead th {
+    border-bottom: 1px solid #e1e1e1;
+    border-bottom-color: rgb(225, 225, 225);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.thpladmin_fields_table tfoot td, 
+.thpladmin_fields_table tfoot th {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: none;
+}
+
+table.thpladmin_fields_table td{
+    color: #555;
+}
+table.thpladmin_fields_table tr:nth-child(2n+1) td{
+    background: #f9f9f9;
+}
+
+table.thpladmin_fields_table td, 
+table.thpladmin_fields_table th{
+    display: table-cell !important;
+    padding: 13px !important;
+    vertical-align: top;
+    line-height: 22px;
+}
+
+table.thpladmin_fields_table thead th.status,
+table.thpladmin_fields_table tfoot th.status,
+table.thpladmin_fields_table tbody td.status {
+    text-align: center;
+}
+
+table.thpladmin_fields_table td.sort{
+    cursor: move;
+    font-size: 20px !important;
+    padding: 13px !important;
+    text-align: center;
+}
+table.thpladmin_fields_table td.sort::before{
+    content: '\f333';
+    font-family: Dashicons;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    display: block;
+    width: 17px;
+    float: left;
+    height: 100%;
+    line-height: 24px;
+}
+
+table.thpladmin_fields_table td.action{
+    padding: 10px 12px !important;
+}
+table.thpladmin_fields_table td.action .action-btn{
+    padding: 2px 4px;
+    line-height: 15px;
+    height: 22px;
+    /*background-color: #f7f7f7;*/
+}
+
+table.thpladmin_fields_table tr.thpladmin-strikeout td {
+    background: rgba(255, 0, 0, .4)!important;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+table.thpladmin_fields_table tr.thpladmin-disabled td {
+    opacity: 0.4;
+}
+table.thpladmin_fields_table tr.thpladmin-disabled td.td_select {
+    opacity: 1;
+}
+
+.thpladmin-dynamic-row-table .action-cell{
+    width: 30px;
+    text-align: center;
+}
+.thpladmin-dynamic-row-table .action-cell a.btn{
+    background-color:#00A0D2;
+    border:1px solid #0073AA;
+    color:#FFFFFF;
+    padding:2px 5px;  
+    border-radius: 3px;
+    font-size:12px;
+    text-decoration:none;
+}
+.thpladmin-dynamic-row-table .action-cell a.btn-blue{
+    background-color:#00A0D2;
+    border:1px solid #0073AA;
+}
+.thpladmin-dynamic-row-table .action-cell a.btn-red{
+    background-color:#ff6666;
+    border:1px solid #ff4c4c;
+}
+
+.thpladmin-dynamic-row-table .action-cell a.dashicons{
+    line-height: inherit;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #ccc;
+}
+.thpladmin-dynamic-row-table .action-cell a.dashicons-plus{
+    background-color:#00A0D2;
+    border:1px solid #0073AA;
+}
+.thpladmin-dynamic-row-table .action-cell a.dashicons-no-alt{
+    background-color:#ff6666;
+    border:1px solid #ff4c4c;
+}
+
+/***** PREMIUM NOTICE ******
+****************************/
+.thpladmin-notice a {
+    display:block;
+    padding:0;
+    height: 63px;
+}
+.thpladmin-notice p {
+    margin-bottom:0px;
+}
+.thpladmin-notice ul {
+    list-style-type: none;
+  margin: 0px;
+}
+.thpladmin-notice ul li {
+    background:url("tick.png") no-repeat 0 50%;
+    padding-left: 20px;
+}
+
+/***** SELECT2 OVERRIDE ******
+****************************/
+.select2-drop-mask {
+    z-index: 99999998!important;
+}
+.select2-drop {
+    z-index: 99999999!important;
+}
+.select2-container {
+    z-index: 99999999!important;
+}
+.select2-container .select2-search--inline .select2-search__field {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.select2-container .select2-search__field{
+    min-width: 0 !important;
+}
+
+
+
+.woocommerce-message {
+  margin-top: 10px;
+}
+#wc_checkout_fields {
+  margin-top: 10px;
+}
+#wc_checkout_fields thead th input {
+  margin: 2px 0 0 0 !important;
+}
+#wc_checkout_fields tbody .description {
+  display: none;
+  color: #999;
+}
+#wc_checkout_fields tbody td {
+  overflow: visible !important;
+  padding: 7px;
+  cursor: move;
+  vertical-align: middle;
+}
+#wc_checkout_fields tbody td:last-child,
+#wc_checkout_fields tbody th:last-child {
+  padding-right: 14px;
+}
+#wc_checkout_fields tbody input.input-text,
+#wc_checkout_fields tbody td select {
+  width: 100%;
+}
+#wc_checkout_fields tfoot .description {
+  color: #999;
+}
+#wc_checkout_fields .check-column {
+  padding: 7px 0 7px 14px;
+}
+#wc_checkout_fields strong.core-field {
+  color: #a4688d;
+}
+#wc_checkout_fields .field-type,
+#wc_checkout_fields .field-options,
+#wc_checkout_fields span.na,
+#wc_checkout_fields .field-validation {
+  text-align: center;
+  color: #aaa;
+}
+#wc_checkout_fields .field-type select,
+#wc_checkout_fields .field-options select,
+#wc_checkout_fields span.na select,
+#wc_checkout_fields .field-validation select,
+#wc_checkout_fields .field-type div,
+#wc_checkout_fields .field-options div,
+#wc_checkout_fields span.na div,
+#wc_checkout_fields .field-validation div,
+#wc_checkout_fields .field-type input,
+#wc_checkout_fields .field-options input,
+#wc_checkout_fields span.na input,
+#wc_checkout_fields .field-validation input {
+  text-align: left;
+}
+#wc_checkout_fields span.na {
+  display: block;
+}
+#wc_checkout_fields .clear {
+  text-align: center;
+}
+#wc_checkout_fields tr.disabled td {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+#wc_checkout_fields tr.disabled td:first-child {
+  opacity:1;
+}
+tr.strikeout1 td:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-bottom: 1px solid #FF0000;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.wcfd_popup_wrapper input[type="text"]:disabled, .wcfd_popup_wrapper select:disabled {
+    background: #f6f6f6;
+}
+
+h1.nav-tab-wrapper, h2.nav-tab-wrapper, h3.nav-tab-wrapper {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+/*---------------------------------------
+ *----- POPUP & FORM STYLES - START -----
+ *---------------------------------------*/
+.woocommerce_page_checkout_form_designer .ui-dialog {
+    z-index: 9990;
+    height: auto !important;
+    padding: 0;
+    border-color: #0071a1;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.woocommerce_page_checkout_form_designer .ui-widget-overlay {
+    position: fixed;
+}
+
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-widget-header{
+    color: #fff;
+    background: #004f70;
+    background-image: linear-gradient(#004f70, #005a80);
+}
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-titlebar{
+    height: 30px;
+    padding: .6em 1em .4em 1em;
+    border: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-title {
+  	line-height: 20px;
+    font-weight: 400;
+}
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-titlebar-close{
+    border: 1px solid #fff;
+    background-color: #fff;
+    right: 0.6em;
+    text-indent: -9999999px;
+}
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-titlebar-close:before{
+    display:none;
+}
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-titlebar-close .ui-icon{
+    background-color: #fff;
+}
+
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-buttonpane{
+    border-color: #0071a1;
+}
+.woocommerce_page_checkout_form_designer .ui-dialog .ui-dialog-buttonpane button{
+    color: #0071a1;
+    border-color: #0071a1;
+    background: #f3f5f6;
+    vertical-align: top;
+    height: auto;
+    padding: .4em 1em;
+    border: 1px solid #0071a1;
+}
+
+/*.select2-drop {
+    z-index: 999999!important;
+}*/
+
+
+
+:root {
+    /*--primary-bg-color: #561849;
+    --primary-text-color: #561849;
+    --primary-border-color: #3b80ee;*/
+
+    --primary-bg-color: #007cba;
+    --primary-text-color: #0071a1;
+    --primary-border-color: #0071a1;
+
+    --primary-alt-bg-color: #f3f5f6;
+    --primary-alt-text-color: #0071a1;
+    --primary-alt-border-color: #0071a1;
+}
+
+/**************************************
+***** Button Styles - START ***********
+***************************************/
+.thwcfd-wrap .btn{
+    display: inline-block;
+    background-image: none;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    touch-action: manipulation;
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    outline: 0;
+    margin: 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    color: var(--primary-alt-text-color);
+    background-color: var(--primary-alt-bg-color);
+    border-color: var(--primary-alt-border-color);
+}
+.thwcfd-wrap .btn:hover{
+    opacity: 0.9;
+}
+.thwcfd-wrap .btn-small{
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 2px;
+}
+.thwcfd-wrap .btn-tiny{
+    font-size: 13px;
+    padding: 5px 5px;
+    border-radius: 2px;
+}
+
+.thwcfd-wrap .btn-primary{
+    color: #fff;
+    background-color: var(--primary-bg-color);
+    border-color: var(--primary-border-color);
+}
+.thwcfd-wrap .btn-primary-alt{
+    color: var(--primary-alt-text-color);
+    background-color: var(--primary-alt-bg-color);
+    border-color: var(--primary-alt-border-color);
+}
+.thwcfd-wrap .btn-danger{
+    color: #fff;
+    background-color: #f44336;
+    border-color: #c3352b;
+}
+
+.thwcfd-wrap .btn:disabled,
+.thwcfd-wrap .btn[disabled]{
+    color: #cbcbcb;
+    border-color: #cbcbcb;
+    background-color: #fcfcfc;
+    cursor: default;
+}
+/**************************************
+***** Button Styles - END *************
+***************************************/
+
+/**************************************
+***** Help Tooltip - START ************
+***************************************/
+.thwcfd_tooltip{
+    float:right;
+    display: inline;
+    position: relative;
+    font-size: 12px;
+    height: 100%;
+}
+
+.thwcfd_tooltip img{
+    padding: 0px;
+    vertical-align: middle;
+    cursor: help;
+    border: medium none;
+    height: 16px;
+    width: 16px;
+}
+
+.thwcfd_tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,1);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: -100px;
+    padding: 10px 15px;
+    position: absolute;
+    z-index: 9998;
+    width: 350px;
+}
+
+.thwcfd_tooltip:hover:before{
+    border: solid;
+    border-color: #000 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 9999;
+}
+/**************************************
+***** Help Tooltip - END **************
+***************************************/
+
+/*****************************************************
+ ********* WEPO ADVANCE SETTINGS - START *************
+ *****************************************************/
+.thwcfd-settings-table{
+    width: 100%;
+}
+.thwcfd-settings-table td{
+    padding: 5px 0px;
+}
+.thwcfd-settings-table td.section-title{
+    padding: 30px 0px 5px 0px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: 1px dashed #cecece;
+}
+.thwcfd-settings-table td.label{
+    width: 22%;
+    text-align: left;
+    padding-right: 0;
+    font-weight: normal;
+}
+.thwcfd-settings-table td.tip{
+    width: 16px;
+    text-align: center;
+    padding: 0;
+}
+.thwcfd-settings-table td.field{
+    padding-left: 0;
+}
+.thwcfd-settings-table textarea {
+    width: 90%;
+    font-size: 0.9em;
+}
+
+.thwcfd-subtitle{
+    font-size:11px; 
+    color:#666666;
+}
+/*****************************************************
+ ********* WEPO ADVANCE SETTINGS - END ***************
+ *****************************************************/
