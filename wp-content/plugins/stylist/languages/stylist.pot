@@ -1,0 +1,416 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-wp-i18n\n"
+
+#: dev/stylist_parent/components/color-palette/index.js:101
+msgid "Color: %s"
+msgstr ""
+
+#: dev/stylist_parent/components/color-palette/index.js:117
+msgid "Custom color picker"
+msgstr ""
+
+#: dev/stylist_parent/components/color-palette/index.js:139
+msgid "Remove color"
+msgstr ""
+
+#: dev/stylist_parent/components/control-label/index.jsx:82
+msgid "Default Value"
+msgstr ""
+
+#: dev/stylist_parent/components/css-selector/index.jsx:118
+msgid "No element on the page matching this selector!"
+msgstr ""
+
+#: dev/stylist_parent/components/css-selector/index.jsx:121
+msgid " elements on the page match this selector"
+msgstr ""
+
+#: dev/stylist_parent/components/css-selector/index.jsx:124
+msgid " element on the page match this selector"
+msgstr ""
+
+#: dev/stylist_parent/components/css-selector/index.jsx:189
+msgid "Click on any element to style it"
+msgstr ""
+
+#: dev/stylist_parent/components/css-selector/index.jsx:190
+msgid "No element selected for styling"
+msgstr ""
+
+#: dev/stylist_parent/components/css-selector/selector-edit.jsx:33
+msgid "Selector"
+msgstr ""
+
+#: dev/stylist_parent/components/font-selector/font-items.jsx:109
+msgid "Close"
+msgstr ""
+
+#: dev/stylist_parent/components/font-selector/index.jsx:62
+msgid "Select Font"
+msgstr ""
+
+#: dev/stylist_parent/components/fullscreen-toggle/index.jsx:11
+msgid "Enable Full Screen"
+msgstr ""
+
+#: dev/stylist_parent/components/fullscreen-toggle/index.jsx:12
+msgid "Exit Full Screen"
+msgstr ""
+
+#: dev/stylist_parent/components/responsive-controls/index.jsx:53
+msgid "below"
+msgstr ""
+
+#: dev/stylist_parent/components/responsive-controls/index.jsx:57
+msgid "above"
+msgstr ""
+
+#: dev/stylist_parent/components/responsive-value-notice/index.jsx:51
+msgid "Some media queries override this value:"
+msgstr ""
+
+#: dev/stylist_parent/components/responsive-value-notice/index.jsx:56
+msgid "for"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:36
+msgid "Styling settings"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:38
+msgid "Styling"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:45
+msgid "CSS code"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:47
+msgid "Code"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:54
+msgid "Premium version"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:56
+msgid "Pro"
+msgstr ""
+
+#: dev/stylist_parent/components/sidebar-header/index.js:63
+msgid "Promo"
+msgstr ""
+
+#: dev/stylist_parent/components/upload-button/index.jsx:30
+msgid "Open Media Library"
+msgstr ""
+
+#: dev/stylist_parent/components/upload-button/media-upload/index.js:26
+msgid "Select or Upload Media"
+msgstr ""
+
+#: dev/stylist_parent/components/upload-button/media-upload/index.js:37
+msgid "Select"
+msgstr ""
+
+#: dev/stylist_parent/editor/header/index.jsx:155
+msgid "Close Style Editor"
+msgstr ""
+
+#: dev/stylist_parent/editor/header/index.jsx:65
+msgid "Saving..."
+msgstr ""
+
+#: dev/stylist_parent/editor/header/index.jsx:67
+msgid "Save"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1077
+msgid "Padding"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:123
+msgid "Thin"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1260
+msgid "Rounded Corners"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1267
+msgid "All Sides"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:127
+msgid "Extra-Light"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1292
+msgid "Advanced"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1299
+msgid "Top-Left"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:131
+msgid "Light"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1322
+msgid "Top-Right"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1345
+msgid "Bottom-Right"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:135
+msgid "Regular"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1368
+msgid "Bottom-Left"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1393
+msgid "Border"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:140
+msgid "Semi-Bold"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:144
+msgid "Bold"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1455
+msgid "Top"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:148
+msgid "Extra-Bold"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1517
+msgid "Right"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:152
+msgid "Black"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1579
+msgid "Bottom"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1641
+msgid "Left"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1649
+msgid "Width"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:165
+msgid "Italic"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1677
+msgid "Style"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1690
+msgid "Color"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1711
+msgid "Easily style any page element"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1721
+msgid "CSS code only"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:173
+msgid "Align left"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1730
+msgid "Pro version is comming"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:1755
+msgid "Design library for new WordPress block editor."
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:178
+msgid "Align center"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:183
+msgid "Align right"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:191
+msgid "Uppercase"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:196
+msgid "Lowercase"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:201
+msgid "Capitalize"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:209
+msgid "Normal"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:214
+msgid "Break Word"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:222
+msgid "Underline"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:227
+msgid "Overline"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:232
+msgid "Through"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:240
+msgid "Solid"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:245
+msgid "Dotted"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:250
+msgid "Dashed"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:255
+msgid "Hidden"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:263
+msgid "Simple"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:340
+msgid "Text"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:347
+msgid "Font Size"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:380
+msgid "Font Weight"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:437
+msgid "Font Family"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:451
+msgid "Text Align"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:465
+msgid "Line Height"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:499
+msgid "Font Style"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:513
+msgid "Text Transform"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:526
+msgid "Letter Spacing"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:554
+msgid "Word Spacing"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:582
+msgid "Text Indent"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:630
+msgid "Text Decoration"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:643
+msgid "Word Wrap"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:659
+msgid "Background"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:680
+msgid "Image"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:694
+msgid "Repeat"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:703
+msgid "Both Ways"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:708
+msgid "Horizontally"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:713
+msgid "Vertically"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:746
+msgid "Fixed"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:751
+msgid "None"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:762
+msgid "Size"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:771
+msgid "Cover"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:776
+msgid "Contain"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:787
+msgid "Horizontal Position"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:840
+msgid "Vertical Position"
+msgstr ""
+
+#: dev/stylist_parent/editor/sidebar/index.jsx:894
+msgid "Margin"
+msgstr ""
